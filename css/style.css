@@ -1,0 +1,75 @@
+body{
+  text-align: center;
+  font-family:  helvetica;
+  background-image: url("../images/health.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#title{
+  font-size: 45px;
+}
+
+#description{
+  font-size: 20px;
+}
+
+#body{
+  width: 600px;
+  padding: 30px;
+  margin: auto;
+  text-align: left;
+  background-color: rgb(0, 0, 0, 0.6);
+  font-size: 16.7px;
+  color: white;
+}
+
+#currently{
+  margin: 0.75rem;
+}
+
+#payment{
+  margin: 0.75rem;
+}
+
+#month{
+  margin: 0.75rem;
+}
+
+#lack{
+  margin: 0.75rem;
+}
+
+#name{
+  width: 560px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#email{
+  width: 560px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#number{
+  width: 560px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#insurance{
+  width: 560px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#submit{
+  width: 200px;
+  padding: 10px;
+  margin-left: 200px;
+}
+
+#month{
+  text-align: left;
+}

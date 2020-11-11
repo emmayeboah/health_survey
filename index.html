@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"  dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Health Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1 id="title">Health Survey Form</h1>
+    <p id="description">Your Health, Our Concern</p>
+
+    <div id="body">
+      <form id="survey-form">
+
+      <label id="name-label">
+        <p>Name:</p>
+      </label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+
+        <label id="age-label">
+          <p>Age:</p>
+        </label>
+          <input type="number" name="number" id="number" placeholder="Enter Your Age" required>
+
+        <label id="email-label">
+          <p>Email:</p>
+        </label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+
+        <label id="insurance-label">
+          <p>N.H.I.S Number:</p>
+        </label>
+          <input type="text/number" name="insurance" id="insurance" placeholder="Enter Your NHIS Number" required>
+<br><br><br><br>
+
+          <p>1. Do you currently have health insurance, or not</p>
+          <input type="radio" name="currently" id="currently" value="1">Yes, I do</input><br>
+          <input type="radio" name="currently"  id="currently" value="2">No, I do not</input><br><br><br>
+
+
+          <p>2. Who pays for your health insurance?(Check all that apply)</p>
+          <input type="checkbox" name="payment" id="payment" value="1">Current employer</input>
+          <input type="checkbox" name="payment"  id="payment" value="2">National governemnt</input><br>
+          <input type="checkbox" name="payment" id="payment" value="3">local governemnt</input>
+          <input type="checkbox" name="payment"  id="payment" value="4">Former employer</input><br>
+          <input type="checkbox" name="payment" id="payment" value="5">State government</input>
+          <input type="checkbox" name="payment"  id="payment" value="6">Self funded</input><br>
+          <input type="checkbox" name="payment" id="payment" value="7">Other(please specify)</input><br>
+          <textarea name="payemnt" rows="1" cols="50" id="try"></textarea><br><br>
+
+          <p>3. How much money, in U.S. dollars, do you spend on health insurance premiums, deductibles, copays. and co-insurance fees in a typical month?</p>
+          <p>Premiums   <textarea name="spending"  id="month"  rows="2" cols="40"></textarea></p>
+          <p>Deductibles  <textarea name="spending" id="month"  rows="2" cols="40"></textarea></p>
+          <p>Copays  <textarea name="spending" rows="2" id="month"  cols="40"></textarea></p>
+          <p>Co-insurance fees  <textarea name="spending" id="month"  rows="2" cols="40"></textarea></p><br><br>
+
+
+
+          <p>4. How much money, in U.S. dollars, do you spend on health care in a typical month?(Count all healthcare-related costs, including health premiums, deductibles, copays, co-insurance fees, and any other out-of-pocket expenses for medical, dental, or vision services and medications.)</p>
+          <textarea name="month" rows="2" id="month" cols="40"></textarea><br><br>
+
+          <p>5. In the last 12 months, has a lack of money kept you from going to the doctor, or not?</p>
+          <input type="radio" name="lack" id="lack" value="1">Yes, it has</input><br>
+          <input type="radio" name="lack"  id="lack" value="2">No, it has not</input><br><br><br>
+
+<br><br><br><br>
+         <input type="submit" id="submit" name="submit" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </form>
+
+    </div>
+
+  </body>
+</html>
